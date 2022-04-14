@@ -12,6 +12,7 @@ corsProxy
 			'http://localhost:3000/dashboard/settings',
 			'https://portfolio-ravenous.herokuapp.com',
 			'http://react-foogle.herokuapp.com/',
+			'*',
 		],
 		requireHeader: ['origin', 'x-requested-with'],
 		removeHeaders: ['cookie', 'cookie2'],
